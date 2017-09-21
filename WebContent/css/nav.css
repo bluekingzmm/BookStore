@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+*{margin:0;padding:0;}
+
+a,a:link,a:visited{color:#d1d1d1;}
+img{border:0;}
+
+.header_bg{width:100%;height:128px;background:url(images/header.jpg) no-repeat center top;}
+.header{margin:0 auto 0 auto;width:100%;height:128px;background:url(images/header_z.jpg) no-repeat center top;}
+
+.nav{position:relative;width:100%;height:42px;background:#333;border-top:1px solid #444;}
+.nav .list{list-style-type:none;margin-left:210px;}
+.nav .list li{float:left;position:relative;height:35px;line-height:26px;}
+.nav .list li .book_hover{float:left;display:block;margin-top:5px;height:30px;padding:0 10px 0 10px;color:#ccc;font-weight:bold;text-decoration:none;}
+.nav .list li .book_hover_current,
+.nav .list li .book_hover:hover{background-color:#fff;color:#575757;margin-top:4px;padding:0 9px 0 9px;border:1px solid #666;border-bottom:0;}
+
+.hover_cont{display:none;position:absolute;width:auto;height:auto; top:35px;border:1px solid #666;border-top:0;border-bottom-width:2px;background:#fff;z-index:1000;}
+.hover_cont .nav_cont{padding:15px;padding-bottom:0;}
+.hover_cont .nav_li{display:inline-block;width:100%;height:100%;*height:auto;*margin-top:7px;padding-bottom:5px;*padding-bottom:12px;border-bottom:1px dashed #ccc;}
+.hover_cont .nav_li_l{float:left;width:80px;color:#f60;font-weight:bold;}
+.hover_cont .nav_li_r{float:left;color:#999;font-family:"微软雅黑","宋体";font-size:14px;line-height:26px;}
+.hover_cont .nav_li_r a{padding:0 1px 0 1px;color:#666;font-size:12px;text-decoration:none;}
+.hover_cont .nav_li_r a:hover{color:red;}
+.hover_cont .nav_li_r a.orange{color:#f60;}
+
+.nav .list .wlyx{width:720px;left:0;}
+.nav .list .djdj{width:800px;left:0;}
+.nav .list .yy{width:740px;left:0;}
+.nav .list .dwsy{width:750px;left:0;}
+.nav .list .xsk{width:740px;left:0;}
+.nav .list .cgwr{width:610px;left:0;}
+.nav .list .xz{width:630px;right:0;}
+.nav .list .mt{width:580px;right:0;}
+.nav .list .kyx{width:610px;right:0;}
+.nav .list .wt{width:510px;right:0;}
+.nav .list .cy{width:540px;right:0;}
+.nav .list .wb{width:710px;right:0;}
+.nav .list .xyx{width:740px;right:0;}
+.nav .list .sp{width:730px;right:0;}
+.nav .list .sc{width:700px;right:0;}
+
+.content{margin:15px auto 0 auto;width:980px;height:500px;background:#ccc;}

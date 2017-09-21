@@ -1,0 +1,151 @@
+@CHARSET "UTF-8";
+.col_1_of_4{
+width:271px;
+	display: block;
+	float:left;
+	margin-left:100px;
+	
+}
+.col_1_of_4:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+.span_1_of_4 {
+	width: 23.8%;
+}
+.span_1_of_4  h3{
+	color:#333;
+	margin-bottom:20px;
+	font-size:1.3em;
+	line-height: 1.2;
+	font-weight : normal;
+	margin-top: 0px;
+	letter-spacing: -1px;
+}
+.span_1_of_4  p {
+	font-size:0.8125em;
+	padding:0.5em 0;
+	color: #333;
+	line-height: 1.5em;
+}
+/***** Media Quries *****/
+@media only screen and (max-width: 1024px) {
+	.wrap{
+		width:95%;
+	}	
+}
+/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
+@media only screen and (max-width: 640px) and (min-width: 480px) {
+	.wrap{
+		width:95%;
+	}
+	.col_1_of_4{ 
+		margin: 1% 0 1% 0%;
+	}
+	.span_1_of_4 {
+		width:94%;
+		padding:3%;  
+	}
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.wrap{
+		width:95%;
+	}
+	.col_1_of_4{ 
+		margin: 1% 0 1% 0%;
+	}
+	.span_1_of_4 {
+		width:92%;
+		padding:4%; 
+	}
+}
+span.price{
+	float:left;
+	color: #383838;
+	font-size: 15px;
+	
+}
+.prod-inner{
+width:269px;
+height:55px;
+
+	border-bottom:1px solid #E7E5E5;
+	border-left:1px solid #E7E5E5;
+	border-right:1px solid #E7E5E5;
+	padding: 4%;
+}
+.prod-inner a{
+    margin-right:20px;
+    margin-top:-45px;
+	float:right;
+	display: inline-block;
+	padding: 7px 12px 7px;
+	margin-bottom: 0;
+	font-size: 13px !important;
+	line-height: 20px !important;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background: url(../images/head-bg.gif) 0 0 repeat;color: #FFF;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-shadow: none;
+	box-shadow: none;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.prod-inner a:hover{
+	text-decoration:underline;
+}
+.product-desc{ 
+    width:200px;
+    height:200px;
+	border:1px solid #E7E5E5;
+}
+.product-desc h4{
+	text-align:center;
+	padding: 5% 0 8%;
+	color: #0088B8;
+	font-size:1.5em;
+}
+.sellers h4{
+    position:absolute;
+    margin-top:10px;
+	color: #272727;
+	text-transform: uppercase;
+	height: 54px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-top:15px;
+	font-weight: normal;
+	margin:20px 0;
+	font-size: 22px;
+	border: 1px solid #EFEFEF;
+	line-height: 1.2em;
+}	
+h4 span span {
+	color: #0088BA;
+}
+.ch{
+	width:100%;
+	height:50px;
+}
+.content{
+	float:left;
+	width:100%;
+	margin-top:50px;
+	
+}
+.category{
+	float:left;
+	margin:0 auto;
+	
+}         
+.kong{
+	width:200px;
+	height:20px;
+}
